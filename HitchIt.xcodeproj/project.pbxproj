@@ -3,27 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62124E715EB130284D250981 /* Pods_HitchIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382298C08FEF337A219E9632 /* Pods_HitchIt.framework */; };
 		A537CA7A2310E2C600861889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CA792310E2C600861889 /* AppDelegate.swift */; };
 		A537CA7C2310E2C600861889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CA7B2310E2C600861889 /* SceneDelegate.swift */; };
 		A537CA7E2310E2C600861889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CA7D2310E2C600861889 /* ViewController.swift */; };
-		A537CA812310E2C600861889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537CA7F2310E2C600861889 /* Main.storyboard */; };
 		A537CA832310E2C800861889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A537CA822310E2C800861889 /* Assets.xcassets */; };
 		A537CA862310E2C800861889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537CA842310E2C800861889 /* LaunchScreen.storyboard */; };
+		A537CA8F2310E83F00861889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537CA8D2310E83F00861889 /* Main.storyboard */; };
+		A537CA942310E84F00861889 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CA902310E84F00861889 /* DriverViewController.swift */; };
+		A537CA952310E84F00861889 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CA912310E84F00861889 /* RequestViewController.swift */; };
+		A537CA962310E84F00861889 /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CA922310E84F00861889 /* RiderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382298C08FEF337A219E9632 /* Pods_HitchIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitchIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A537CA762310E2C600861889 /* HitchIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A537CA792310E2C600861889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A537CA7B2310E2C600861889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A537CA7D2310E2C600861889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A537CA802310E2C600861889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A537CA822310E2C800861889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A537CA852310E2C800861889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A537CA872310E2C800861889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A537CA8E2310E83F00861889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A537CA902310E84F00861889 /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		A537CA912310E84F00861889 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		A537CA922310E84F00861889 /* RiderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		A549298623149F350030ABB0 /* HitchIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HitchIt.entitlements; sourceTree = "<group>"; };
+		AE3D83DF7B839FB3E5DC070C /* Pods-HitchIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchIt.release.xcconfig"; path = "Target Support Files/Pods-HitchIt/Pods-HitchIt.release.xcconfig"; sourceTree = "<group>"; };
+		F142B1A5313DBBC8FCFB5CD3 /* Pods-HitchIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchIt.debug.xcconfig"; path = "Target Support Files/Pods-HitchIt/Pods-HitchIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62124E715EB130284D250981 /* Pods_HitchIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A5A2D930001702C3537B532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				382298C08FEF337A219E9632 /* Pods_HitchIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A537CA6D2310E2C600861889 = {
 			isa = PBXGroup;
 			children = (
 				A537CA782310E2C600861889 /* HitchIt */,
 				A537CA772310E2C600861889 /* Products */,
+				A9185C1800A37C09E3E3D77F /* Pods */,
+				6A5A2D930001702C3537B532 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,28 @@
 		A537CA782310E2C600861889 /* HitchIt */ = {
 			isa = PBXGroup;
 			children = (
+				A549298623149F350030ABB0 /* HitchIt.entitlements */,
+				A537CA902310E84F00861889 /* DriverViewController.swift */,
+				A537CA912310E84F00861889 /* RequestViewController.swift */,
+				A537CA922310E84F00861889 /* RiderViewController.swift */,
 				A537CA792310E2C600861889 /* AppDelegate.swift */,
 				A537CA7B2310E2C600861889 /* SceneDelegate.swift */,
 				A537CA7D2310E2C600861889 /* ViewController.swift */,
-				A537CA7F2310E2C600861889 /* Main.storyboard */,
+				A537CA8D2310E83F00861889 /* Main.storyboard */,
 				A537CA822310E2C800861889 /* Assets.xcassets */,
 				A537CA842310E2C800861889 /* LaunchScreen.storyboard */,
 				A537CA872310E2C800861889 /* Info.plist */,
 			);
 			path = HitchIt;
+			sourceTree = "<group>";
+		};
+		A9185C1800A37C09E3E3D77F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F142B1A5313DBBC8FCFB5CD3 /* Pods-HitchIt.debug.xcconfig */,
+				AE3D83DF7B839FB3E5DC070C /* Pods-HitchIt.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A537CA8A2310E2C800861889 /* Build configuration list for PBXNativeTarget "HitchIt" */;
 			buildPhases = (
+				191F20F4DB53E445631B17C2 /* [CP] Check Pods Manifest.lock */,
 				A537CA722310E2C600861889 /* Sources */,
 				A537CA732310E2C600861889 /* Frameworks */,
 				A537CA742310E2C600861889 /* Resources */,
+				0BAB9F5180F41B356305A597 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +164,63 @@
 			files = (
 				A537CA862310E2C800861889 /* LaunchScreen.storyboard in Resources */,
 				A537CA832310E2C800861889 /* Assets.xcassets in Resources */,
-				A537CA812310E2C600861889 /* Main.storyboard in Resources */,
+				A537CA8F2310E83F00861889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BAB9F5180F41B356305A597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitchIt/Pods-HitchIt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitchIt/Pods-HitchIt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitchIt/Pods-HitchIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		191F20F4DB53E445631B17C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitchIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A537CA722310E2C600861889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A537CA942310E84F00861889 /* DriverViewController.swift in Sources */,
+				A537CA962310E84F00861889 /* RiderViewController.swift in Sources */,
 				A537CA7E2310E2C600861889 /* ViewController.swift in Sources */,
+				A537CA952310E84F00861889 /* RequestViewController.swift in Sources */,
 				A537CA7A2310E2C600861889 /* AppDelegate.swift in Sources */,
 				A537CA7C2310E2C600861889 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,20 +229,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A537CA7F2310E2C600861889 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A537CA802310E2C600861889 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A537CA842310E2C800861889 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A537CA852310E2C800861889 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A537CA8D2310E83F00861889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A537CA8E2310E83F00861889 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,17 +364,22 @@
 		};
 		A537CA8B2310E2C800861889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F142B1A5313DBBC8FCFB5CD3 /* Pods-HitchIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HitchIt/HitchIt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYLJK2X934;
 				INFOPLIST_FILE = HitchIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shurjom.HitchIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +387,22 @@
 		};
 		A537CA8C2310E2C800861889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3D83DF7B839FB3E5DC070C /* Pods-HitchIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HitchIt/HitchIt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYLJK2X934;
 				INFOPLIST_FILE = HitchIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shurjom.HitchIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
