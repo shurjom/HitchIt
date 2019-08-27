@@ -7,5 +7,6 @@ target 'HitchIt' do
 
   # Pods for HitchIt
 	pod 'Parse'
+	pod 'SwiftyGif'
 
 end

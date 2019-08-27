@@ -9,6 +9,7 @@
 
 import UIKit
 import Parse
+//import SwiftyGif
 
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var username: UITextField!
@@ -17,6 +18,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var rider: UILabel!
     @IBOutlet weak var driver: UILabel!
     @IBOutlet weak var signUpButton: UIButton!
+    
+
     
     func displayAlert(title: String, message: String) {
         let alert = UIAlertController(title: title,
@@ -99,8 +102,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
             action: #selector(dismissKeyboard))
         
         view.addGestureRecognizer(tap)
-    //    username.delegate = self
-     //   password.delegate = self
+        username.delegate = self
+        password.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
